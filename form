@@ -1,0 +1,50 @@
+<form>
+  <table>
+      <tr>
+          <td>
+              <label for="uname">Name</label>
+          </td>
+          <td>
+              <input type="text" id="name" name="username">
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <label for="email">Email</label>
+          </td>
+          <td>
+                  <input type="text" id="email">
+          </td>
+
+      </tr>
+      <tr>
+          <td>
+                  <label for="pass">Password</label>
+          </td>
+          <td>
+                  <input type="password" id="password">
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <label for="dob">dob</label>
+          </td>
+          <td>
+              <input type="text" name="dob" id="dob">
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <label>
+                  <input type="checkbox" > Accepted terms?
+              </label>
+      </tr>
+     
+      <tr>
+          <td></td>
+          <td>
+              <input type="submit" value="Submit">
+          </td>
+      </tr>
+  </table>
+</form>
